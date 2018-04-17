@@ -1,0 +1,224 @@
+* {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+}
+
+.header .logo img {
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+  align-items: flex-start;
+}
+
+.header nav {
+  padding-right: 20px;
+}
+
+.header nav span {
+  font-size: 22px;
+  float: right;
+  display: inline-block;
+  padding-left: 10px;
+  }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 69px;
+}
+
+.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission .missiontext {
+  width: 100%;
+  opacity: 1;
+ }
+
+ .mission .missiontext h2 {
+   font-size: 30px;
+ }
+
+ .featured {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+
+ .featured .teas {
+   display: inline-block;
+   flex-wrap: wrap;
+   width: 1000px;
+  }
+
+.teaofthemonth h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.fallberry {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.fallberry img {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.spicedrum {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.spicedrum img {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.donut {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.donut img {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.myrtle {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.myrtle img {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.bedford {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.bedford img {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.caption {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.locations span {
+  background: 0;
+  position: relative;
+  left; 50%;
+  padding-top: 60px;
+  font-weight: bold;
+  font-size: 40px;
+  z-index: 1
+}
+
+.addresses {
+  background: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 40px;
+  padding-top: 15px;
+}
+
+.downtown {
+  width: 300px;
+  opacity: 1;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+.eastbayside {
+  width: 300px;
+  opacity: 1;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.oakdale {
+  width: 300px;
+  opacity: 1;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact h5 p {
+  font-size: 18px;
+}
+
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
+
+ footer span {
+   font-size: 18px;
+   font-weight: bold;
+ }
